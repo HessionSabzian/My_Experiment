@@ -31,6 +31,7 @@ python toolbench/inference/qa_pipeline.py \
     --backbone_model chatgpt_function \
     --chatgpt_model "$GPT_MODEL" \
     --openai_key "$OPENAI_KEY" \
+    --base_url "$OPENAI_API_BASE" \
     --max_observation_length 1024 \
     --method "$METHOD" \
     --input_query_file "solvable_queries/training_instruction/${group}.json" \

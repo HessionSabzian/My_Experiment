@@ -28,6 +28,7 @@ for METHOD in CoT@5 DFS_woFilter_w2; do
             --backbone_model chatgpt_function \
             --chatgpt_model $GPT_MODEL \
             --openai_key $OPENAI_KEY \
+            --base_url "$OPENAI_API_BASE" \
             --max_observation_length 1024 \
             --method $METHOD \
             --input_query_file solvable_queries/tool_test_instruction/${group}.json \
