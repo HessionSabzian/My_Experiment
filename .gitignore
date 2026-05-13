@@ -141,6 +141,12 @@ openai_key.json
 *.key
 *.pem
 
+# StableToolBench local data/cache
+/server/tools/
+/server/tool_response_cache/
+/server/*.log
+/server/logs/
+
 # Spyder project settings
 .spyderproject
 .spyproject
