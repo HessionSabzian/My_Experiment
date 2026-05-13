@@ -2,8 +2,8 @@
 
 # --- Environment Variables ---
 export TOOLBENCH_KEY="test"
-export OPENAI_KEY=""
-export OPENAI_API_BASE=""
+export OPENAI_KEY="${OPENAI_KEY:?Please set OPENAI_KEY}"
+export OPENAI_API_BASE="https://api.deerapi.com/v1"
 export PYTHONPATH=./
 
 # --- Unset Proxies ---

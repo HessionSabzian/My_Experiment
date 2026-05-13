@@ -6,8 +6,8 @@ mkdir -p ${SAVE_PATH}
 # export EVAL_MODEL=gpt-3.5-turbo
 export EVAL_MODEL=gpt-4o-mini
 
-export OPENAI_KEY=""
-export OPENAI_API_BASE=""
+export OPENAI_KEY="${OPENAI_KEY:?Please set OPENAI_KEY}"
+export OPENAI_API_BASE="https://api.deerapi.com/v1"
 unset HTTP_PROXY HTTPS_PROXY http_proxy https_proxy
 
 # running Pass Rate evaluation on Tool Test Set

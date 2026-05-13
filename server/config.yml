@@ -1,5 +1,5 @@
-api_key:
-api_base:
+api_key: sk-i6cKpRvrrkUYYAvMNv9xhVHIAu4joHXnM58psck48iJqtaAy
+api_base: https://api.deerapi.com/v1
 model: gpt-4-turbo
 temperature: 0
 toolbench_url: http://8.130.32.149:8080/rapidapi

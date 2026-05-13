@@ -1,7 +1,7 @@
 export TOOLBENCH_KEY=""
 
-export OPENAI_KEY=""
-export OPENAI_API_BASE=""
+export OPENAI_KEY="${OPENAI_KEY:?Please set OPENAI_KEY}"
+export OPENAI_API_BASE="https://api.deerapi.com/v1"
 export PYTHONPATH=./
 unset HTTP_PROXY HTTPS_PROXY http_proxy https_proxy
 
